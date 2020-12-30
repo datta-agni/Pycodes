@@ -1,3 +1,4 @@
+#A python program to create a basic calculator.
 print("    Choose the operator\n""1.Addition\t""2.Subtraction\t""3.Multiplication\t""4.Division\t""5.Exponents")
 ch = int(input("    Enter your choice:    "))
 a = float(input('Enter the first number:    '))
