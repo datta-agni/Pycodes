@@ -1,6 +1,5 @@
 # Python program to convert decimal into other number systems
-dec = int(input("ENTER THE NUMBER:")
-
+dec = int(input("ENTER THE NUMBER:"))
 print("The decimal value of", dec, "is:")
 print(bin(dec), "in binary.")
 print(oct(dec), "in octal.")
