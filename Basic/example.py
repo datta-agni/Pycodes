@@ -9,7 +9,7 @@ multi-line comments"""
 
 def multi_line():
 
-    """ DOC STRING FOR multi_line"""
+    """ USAGE OF MULTILINE """
 
     a = 1 + 2 + 3 + \
         4 + 5 + 6 + \
@@ -31,7 +31,7 @@ def multi_line():
 
 def multi_statement():
 
-    """ DOC STRING FOR multi_statement"""
+    """ ASSINGING MULTIPLE VALUE TO MULTIPLE VARIABLES IN A SINGLE LINE """
 
     ab = 1; bc = 1 ; ac = 1
 
@@ -40,8 +40,8 @@ def multi_statement():
     print (multi_statement.__doc__)
 
 def multivalue_multivar():
-    
-    """DOC STRING FOR multivalue_multivar"""
+
+    """ASSINGING MULTIPLE VALUE TO MULTIPLE VARIABLES IN A SINGLE LINE AT ONCE """
 
     d , e, f = 10, 20, 30
 
@@ -49,6 +49,31 @@ def multivalue_multivar():
 
     print (multivalue_multivar.__doc__)
 
+def literals():
+    a = 0b1010 #Binary Literals
+    b = 100 #Decimal Literal 
+    c = 0o310 #Octal Literal
+    d = 0x12c #Hexadecimal Literal
+
+    #Float Literal
+    float_1 = 10.5 
+    float_2 = 1.5e2
+
+    #Complex Literal 
+    x = 3.14j
+
+    #Charecter Type
+    strings = "This si a string"
+    char = "ABCD"
+    multiline_str = """This is a multiline string with more than one line code."""
+    unicode = u"\u00dcnic\u00f6de"
+    raw_str = r"raw \n string"
+
+    #Boolean Literal
+    x = (1 == True)
+    y = (1 == False)
+    a = True + 5
+    b = False + 50
 
 multi_line()
 
