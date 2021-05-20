@@ -51,12 +51,16 @@ def multivalue_multivar():
 
 def literals():
     a = 0b1010 #Binary Literals
+
     b = 100 #Decimal Literal 
+
     c = 0o310 #Octal Literal
+
     d = 0x12c #Hexadecimal Literal
 
     #Float Literal
     float_1 = 10.5 
+
     float_2 = 1.5e2
 
     #Complex Literal 
@@ -64,16 +68,35 @@ def literals():
 
     #Charecter Type
     strings = "This si a string"
+
     char = "ABCD"
+
     multiline_str = """This is a multiline string with more than one line code."""
+
     unicode = u"\u00dcnic\u00f6de"
+
     raw_str = r"raw \n string"
 
     #Boolean Literal
     x = (1 == True)
+
     y = (1 == False)
+
     a = True + 5
+
     b = False + 50
+    
+    #list
+    fruits = ["apple", "mango", "orange"] 
+
+    #tuple
+    numbers = (1, 2, 3) 
+
+    #dictionary
+    alphabets = {'a':'apple', 'b':'ball', 'c':'cat'} 
+    
+    #set
+    vowels = {'a', 'e', 'i' , 'o', 'u'} 
 
 multi_line()
 
