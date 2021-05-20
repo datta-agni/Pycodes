@@ -1,6 +1,7 @@
-#Hello World program.
-#This is where you write a comment.
+# Hello World program.
+# This is where you write a comment.
 def hello_world():
-    print ("HELLO! WORLD")
+    print("HELLO! WORLD")
+
 
 hello_world()
